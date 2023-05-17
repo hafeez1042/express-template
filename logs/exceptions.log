@@ -1,0 +1,46 @@
+2023-01-29 12:34:08:348 [31merror[39m: [31munhandledRejection: (no error message)[39m
+[31mError[39m
+[31m    at UserRepository.getByEmail (file:///home/hafeez/workspace/ProApp/server/dist/repository/UserRepository.js:13:15)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async currentUserMiddleware (file:///home/hafeez/workspace/ProApp/server/dist/middlewares/currentUser.middleware.js:4:18)[39m
+2023-01-29 12:34:16:3416 [31merror[39m: [31munhandledRejection: (no error message)[39m
+[31mError[39m
+[31m    at UserRepository.getByEmail (file:///home/hafeez/workspace/ProApp/server/dist/repository/UserRepository.js:13:15)[39m
+[31m    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)[39m
+[31m    at async currentUserMiddleware (file:///home/hafeez/workspace/ProApp/server/dist/middlewares/currentUser.middleware.js:4:18)[39m
+2023-01-29 12:34:16:3416 [31merror[39m: [31muncaughtException: write after end[39m
+[31mError: write after end[39m
+[31m    at writeAfterEnd (/home/hafeez/workspace/ProApp/server/node_modules/readable-stream/lib/_stream_writable.js:261:12)[39m
+[31m    at Writable.write (/home/hafeez/workspace/ProApp/server/node_modules/readable-stream/lib/_stream_writable.js:305:21)[39m
+[31m    at File.log (/home/hafeez/workspace/ProApp/server/node_modules/winston/lib/winston/transports/file.js:185:34)[39m
+[31m    at ExceptionStream._write (/home/hafeez/workspace/ProApp/server/node_modules/winston/lib/winston/exception-stream.js:48:29)[39m
+[31m    at doWrite (/home/hafeez/workspace/ProApp/server/node_modules/readable-stream/lib/_stream_writable.js:409:139)[39m
+[31m    at writeOrBuffer (/home/hafeez/workspace/ProApp/server/node_modules/readable-stream/lib/_stream_writable.js:398:5)[39m
+[31m    at Writable.write (/home/hafeez/workspace/ProApp/server/node_modules/readable-stream/lib/_stream_writable.js:307:11)[39m
+[31m    at DerivedLogger.ondata (/home/hafeez/workspace/ProApp/server/node_modules/readable-stream/lib/_stream_readable.js:681:20)[39m
+[31m    at DerivedLogger.emit (node:events:525:35)[39m
+[31m    at addChunk (/home/hafeez/workspace/ProApp/server/node_modules/readable-stream/lib/_stream_readable.js:298:12)[39m
+2023-01-31 22:37:46:3746 [31merror[39m: [31muncaughtException: write EPIPE[39m
+[31mError: write EPIPE[39m
+[31m    at afterWriteDispatched (node:internal/stream_base_commons:160:15)[39m
+[31m    at writeGeneric (node:internal/stream_base_commons:151:3)[39m
+[31m    at Socket._writeGeneric (node:net:917:11)[39m
+[31m    at Socket._write (node:net:929:8)[39m
+[31m    at writeOrBuffer (node:internal/streams/writable:392:12)[39m
+[31m    at _write (node:internal/streams/writable:333:10)[39m
+[31m    at Writable.write (node:internal/streams/writable:337:10)[39m
+[31m    at console.value (node:internal/console/constructor:300:16)[39m
+[31m    at console.warn (node:internal/console/constructor:382:26)[39m
+[31m    at writeOut (node:internal/process/warning:60:3)[39m
+2023-02-12 19:36:09:369 [31merror[39m: [31muncaughtException: write EPIPE[39m
+[31mError: write EPIPE[39m
+[31m    at afterWriteDispatched (node:internal/stream_base_commons:160:15)[39m
+[31m    at writeGeneric (node:internal/stream_base_commons:151:3)[39m
+[31m    at Socket._writeGeneric (node:net:930:11)[39m
+[31m    at Socket._write (node:net:942:8)[39m
+[31m    at writeOrBuffer (node:internal/streams/writable:392:12)[39m
+[31m    at _write (node:internal/streams/writable:333:10)[39m
+[31m    at Writable.write (node:internal/streams/writable:337:10)[39m
+[31m    at Console.log (/home/hafeez/workspace/ProApp/server/node_modules/winston/lib/winston/transports/console.js:79:23)[39m
+[31m    at Console._write (/home/hafeez/workspace/ProApp/server/node_modules/winston-transport/index.js:82:19)[39m
+[31m    at doWrite (/home/hafeez/workspace/ProApp/server/node_modules/readable-stream/lib/_stream_writable.js:409:139)[39m
